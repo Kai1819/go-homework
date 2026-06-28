@@ -1,4 +1,3 @@
-module homework01
+module go-homework
 
 go 1.26
-
