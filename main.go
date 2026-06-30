@@ -1,6 +1,9 @@
 package main
 
-import "go-homework/homework02"
+import (
+	"go-homework/homework02"
+	"go-homework/homework03"
+)
 
 func main()  {
 	// homework02.CheckGoroutine1()
@@ -14,5 +17,8 @@ func main()  {
 
 	// homework02.CheckLock1()
 	homework02.CheckLock2()
+
+	homework03.Gorm01()
+
 
 }
